@@ -12,12 +12,19 @@ public class Main {
         return ((celcius * 9 / 5) + 32);
     }
 
+    public static String convertMinutesToHours(int totalMinutes) {
+        int hours = totalMinutes / 60;
+        int minutes = totalMinutes % 60;
+        return hours + " часов " + minutes + " минут";
+    }
+
     public static void main(String[] args) {
         try(Scanner input = new Scanner(System.in)){
             System.out.println("=====Калькулятор=====");
             System.out.println("1. Площадь прямоугольника");
             System.out.println("2. Конвертер температуры (°C → °F)");
-            System.out.print("Выберите (1 или 2): ");
+            System.out.println("3. Конвертер минут в часы / минуты");
+            System.out.print("Выберите (1 или 3): ");
 
             int choice = input.nextInt();
 
@@ -36,6 +43,12 @@ public class Main {
                     System.out.printf("%.1f°C = %.1f°F%n", celcius, fahrenheit);
                     System.out.println("Отображение Как в задании: " + fahrenheit);
                 }
+                case 3 -> {
+                    System.out.print("Введите количество минут: ");
+                    int minutes = input.nextInt();
+                    System.out.println("Это равно: " + convertMinutesToHours(minutes));
+                }
+                default -> System.out.println("Ошибка: выберите 1, 2 или 3!");
             }
         }
 
