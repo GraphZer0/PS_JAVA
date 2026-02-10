@@ -2,7 +2,7 @@
 
 1. [x] Создайте абстрактный класс SmartDevice с защищенными полями name и isOn. Реализуйте методы turnOn() и turnOff().
 2. [x] Создайте интерфейс Controllable с методами increaseValue() и decreaseValue().
-3. [] Реализуйте классы SmartLight, SmartThermostat и SmartTV, наследующиеся от SmartDevice и реализующие интерфейс Controllable.
+3. [x] Реализуйте классы SmartLight, SmartThermostat и SmartTV, наследующиеся от SmartDevice и реализующие интерфейс Controllable.
 4. [x] Создайте класс SmartHome, который будет содержать коллекцию умных устройств и методы для управления ими.
 5. [x] Используйте вложенный статический класс HomeStats внутри SmartHome для хранения статистики использования устройств.
 6. [x] Создайте перечисление RoomType с различными типами комнат.
