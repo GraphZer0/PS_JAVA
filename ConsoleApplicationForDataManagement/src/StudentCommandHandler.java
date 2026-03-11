@@ -22,6 +22,10 @@ public class StudentCommandHandler {
                 processStatsByCourseCommand(command);
                 break;
             }
+            case STATS_BY_CITY -> {
+                processStatsByCityCommand(command);
+                break;
+            }
             case SEARCH -> {
                 processSearchCommand(command);
                 break;
@@ -47,6 +51,11 @@ public class StudentCommandHandler {
 
     private void processStatsByCourseCommand(Command command) {
         Map<String, Long> data = studentStorage.getCountByCourse();
+        studentStorage.printMap(data);
+    }
+
+    private void processStatsByCityCommand(Command command) {
+        Map<String, Long> data = studentStorage.getCountByCity();
         studentStorage.printMap(data);
     }
 
