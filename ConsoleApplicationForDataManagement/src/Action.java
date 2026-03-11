@@ -5,15 +5,18 @@
 import java.util.Objects;
 import java.util.stream.Stream;
 
+import java.util.Objects;
+import java.util.stream.Stream;
+
 public enum Action {
-    EXIT(0, false), //любой ввод состоит из правил или команд
+    EXIT(0, false),
     CREATE(1, true),
     UPDATE(2, true),
     DELETE(3, true),
     STATS_BY_COURSE(4, false),
     SEARCH(5, true),
+    STATS_BY_CITY(6, false),  // новый пункт
     ERROR(-1, false);
-
 
     public Integer getCode() {
         return code;
@@ -23,8 +26,8 @@ public enum Action {
         return reqiredAditionalData;
     }
 
-    private Integer code; //(это раскидка для цифорок из printMessage)
-    private boolean reqiredAditionalData; //нужно для понимания, для выбранного пункта нужны ли дополнительные данные
+    private Integer code;
+    private boolean reqiredAditionalData;
 
     Action(Integer code, boolean reqiredAditionalData) {
         this.code = code;
