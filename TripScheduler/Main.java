@@ -12,11 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("=== START PROGRAM ===");
-
-        // =========================
         // СОЗДАЁМ DESTINATIONS
-        // =========================
-
         Destination d1 =
                 new Destination(
                         "Paris",
@@ -38,9 +34,7 @@ public class Main {
                         "Canal прогулка",
                         LocalDate.of(2025, 5, 18));
 
-        // =========================
         // СОЗДАЁМ TRIPS
-        // =========================
 
         Trip trip1 =
                 new Trip(
@@ -63,9 +57,8 @@ public class Main {
 
         trip2.addDestination(d3);
 
-        // =========================
         // СОЗДАЁМ КОЛЛЕКЦИЮ TRIPS
-        // =========================
+
 
         List<Trip> trips =
                 new ArrayList<>();
@@ -73,9 +66,8 @@ public class Main {
         trips.add(trip1);
         trips.add(trip2);
 
-        // =========================
         // БИНАРНАЯ СЕРИАЛИЗАЦИЯ
-        // =========================
+
 
         System.out.println("\n=== BINARY SAVE ===");
 
@@ -95,9 +87,8 @@ public class Main {
         System.out.println(
                 loadedTrips);
 
-        // =========================
         // JSON СЕРИАЛИЗАЦИЯ
-        // =========================
+
 
         System.out.println("\n=== JSON SAVE ===");
 
@@ -117,9 +108,6 @@ public class Main {
         System.out.println(
                 jsonTrips);
 
-        // =========================
-        // В JSON-СТРОКУ
-        // =========================
 
         System.out.println("\n=== JSON STRING ===");
 
@@ -129,10 +117,6 @@ public class Main {
 
         System.out.println(
                 jsonString);
-
-        // =========================
-        // ИЗ JSON-СТРОКИ
-        // =========================
 
         System.out.println("\n=== FROM JSON STRING ===");
 
