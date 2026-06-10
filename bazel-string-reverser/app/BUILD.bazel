@@ -1,0 +1,11 @@
+load("@rules_java//java:java_binary.bzl", "java_binary")
+
+java_binary(
+    name = "app",
+    srcs = glob(["src/main/java/**/*.java"]),
+    main_class = "com.example.App",
+    deps = [
+        "//mylib:mylib",
+        "@maven//:org_apache_commons_commons_lang3",
+    ],
+)
