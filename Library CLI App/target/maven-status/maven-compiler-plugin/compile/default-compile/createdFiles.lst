@@ -1,0 +1,14 @@
+org/example/Main.class
+org/example/dao/InMemoryLoanDao.class
+org/example/dao/InMemoryBookDao.class
+org/example/service/LoanService.class
+org/example/dao/InMemoryReaderDao.class
+org/example/model/Loan.class
+org/example/model/Reader.class
+org/example/cli/ConsoleMenu.class
+org/example/dao/LoanDao.class
+org/example/model/Book.class
+org/example/dao/BookDao.class
+org/example/dao/ReaderDao.class
+org/example/service/ReaderService.class
+org/example/service/BookService.class

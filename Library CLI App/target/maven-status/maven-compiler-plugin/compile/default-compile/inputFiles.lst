@@ -1,0 +1,14 @@
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/Main.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/cli/ConsoleMenu.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/dao/BookDao.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/dao/InMemoryBookDao.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/dao/InMemoryLoanDao.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/dao/InMemoryReaderDao.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/dao/LoanDao.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/dao/ReaderDao.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/model/Book.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/model/Loan.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/model/Reader.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/service/BookService.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/service/LoanService.java
+/Users/neiromancer/IdeaProjects/Library CLI App/src/main/java/org/example/service/ReaderService.java
