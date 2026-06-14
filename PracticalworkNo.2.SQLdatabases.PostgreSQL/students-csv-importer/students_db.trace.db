@@ -1,0 +1,106 @@
+2026-06-14 09:32:36.271628+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "PARENTAL_LEVEL_OF_EDUCATION" не найден
+Column "PARENTAL_LEVEL_OF_EDUCATION" not found; SQL statement:
+INSERT INTO students (
+gender,
+race_ethnicity,
+parental_level_of_education,
+lunch,
+test_preparation_course,
+math_score,
+reading_score,
+writing_score)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+ [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Table.getColumn(Table.java:759)
+	at org.h2.command.Parser.parseColumn(Parser.java:1190)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1175)
+	at org.h2.command.Parser.parseInsert(Parser.java:1549)
+	at org.h2.command.Parser.parsePrepared(Parser.java:719)
+	at org.h2.command.Parser.parse(Parser.java:592)
+	at org.h2.command.Parser.parse(Parser.java:564)
+	at org.h2.command.Parser.prepareCommand(Parser.java:483)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at org.example.Main.importCsv(Main.java:59)
+	at org.example.Main.main(Main.java:15)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:385)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:374)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:296)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+2026-06-14 09:34:28.456968+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "PARENTAL_LEVEL_OF_EDUCATION" не найден
+Column "PARENTAL_LEVEL_OF_EDUCATION" not found; SQL statement:
+INSERT INTO students (
+gender,
+race_ethnicity,
+parental_level_of_education,
+lunch,
+test_preparation_course,
+math_score,
+reading_score,
+writing_score)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+ [42122-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.table.Table.getColumn(Table.java:759)
+	at org.h2.command.Parser.parseColumn(Parser.java:1190)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1175)
+	at org.h2.command.Parser.parseInsert(Parser.java:1549)
+	at org.h2.command.Parser.parsePrepared(Parser.java:719)
+	at org.h2.command.Parser.parse(Parser.java:592)
+	at org.h2.command.Parser.parse(Parser.java:564)
+	at org.h2.command.Parser.prepareCommand(Parser.java:483)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at org.example.Main.importCsv(Main.java:59)
+	at org.example.Main.main(Main.java:15)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:385)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:374)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:296)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+2026-06-14 09:36:00.484640+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Неверное количество столбцов
+Column count does not match; SQL statement:
+INSERT INTO students (
+gender,
+race_ethnicity,
+parental_level_of_education,
+lunch,
+test_preparation_course,
+math_score,
+reading_score,
+writing_score)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) [21002-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.command.dml.Insert.doPrepare(Insert.java:295)
+	at org.h2.command.dml.DataChangeStatement.prepare(DataChangeStatement.java:37)
+	at org.h2.command.Parser.prepareCommand(Parser.java:489)
+	at org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:639)
+	at org.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:559)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1166)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:316)
+	at org.example.Main.importCsv(Main.java:59)
+	at org.example.Main.main(Main.java:15)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:385)
+	at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:374)
+	at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:296)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
