@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="io.cucumber.skeleton.RunCucumberTest" time="0.295" tests="3" errors="0" skipped="0" failures="0" flakes="0">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/neiromancer/IdeaProjects/cucumber-bdd-homework/target/test-classes:/Users/neiromancer/IdeaProjects/cucumber-bdd-homework/target/classes:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-java/7.34.3/cucumber-java-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-core/7.34.3/cucumber-core-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-gherkin/7.34.3/cucumber-gherkin-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.34.3/cucumber-gherkin-messages-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/gherkin/36.1.0/gherkin-36.1.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/messages/30.1.0/messages-30.1.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/messages-ndjson/0.3.2/messages-ndjson-0.3.2.jar:/Users/neiromancer/.m2/repository/io/cucumber/pretty-formatter/2.4.1/pretty-formatter-2.4.1.jar:/Users/neiromancer/.m2/repository/io/cucumber/query/14.7.0/query-14.7.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/teamcity-formatter/0.2.0/teamcity-formatter-0.2.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/testng-xml-formatter/0.7.0/testng-xml-formatter-0.7.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/usage-formatter/0.1.0/usage-formatter-0.1.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/tag-expressions/8.1.0/tag-expressions-8.1.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-expressions/18.1.0/cucumber-expressions-18.1.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-json-formatter/0.3.2/cucumber-json-formatter-0.3.2.jar:/Users/neiromancer/.m2/repository/io/cucumber/datatable/7.34.3/datatable-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-plugin/7.34.3/cucumber-plugin-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/docstring/7.34.3/docstring-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/html-formatter/22.3.0/html-formatter-22.3.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/junit-xml-formatter/0.11.0/junit-xml-formatter-0.11.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/ci-environment/12.0.0/ci-environment-12.0.0.jar:/Users/neiromancer/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.34.3/cucumber-junit-platform-engine-7.34.3.jar:/Users/neiromancer/.m2/repository/org/junit/platform/junit-platform-engine/6.1.0/junit-platform-engine-6.1.0.jar:/Users/neiromancer/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/neiromancer/.m2/repository/org/junit/platform/junit-platform-commons/6.1.0/junit-platform-commons-6.1.0.jar:/Users/neiromancer/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/neiromancer/.m2/repository/org/junit/platform/junit-platform-suite/6.1.0/junit-platform-suite-6.1.0.jar:/Users/neiromancer/.m2/repository/org/junit/platform/junit-platform-suite-api/6.1.0/junit-platform-suite-api-6.1.0.jar:/Users/neiromancer/.m2/repository/org/junit/platform/junit-platform-suite-engine/6.1.0/junit-platform-suite-engine-6.1.0.jar:/Users/neiromancer/.m2/repository/org/junit/platform/junit-platform-launcher/6.1.0/junit-platform-launcher-6.1.0.jar:/Users/neiromancer/.m2/repository/org/assertj/assertj-core/3.27.7/assertj-core-3.27.7.jar:/Users/neiromancer/.m2/repository/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/neiromancer/IdeaProjects/cucumber-bdd-homework/target/surefire/surefirebooter-20260623155408759_3.jar /Users/neiromancer/IdeaProjects/cucumber-bdd-homework/target/surefire 2026-06-23T15-54-08_708-jvmRun1 surefire-20260623155408759_1tmp surefire_0-20260623155408759_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/neiromancer/IdeaProjects/cucumber-bdd-homework/target/test-classes:/Users/neiromancer/IdeaProjects/cucumber-bdd-homework/target/classes:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-java/7.34.3/cucumber-java-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-core/7.34.3/cucumber-core-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-gherkin/7.34.3/cucumber-gherkin-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.34.3/cucumber-gherkin-messages-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/gherkin/36.1.0/gherkin-36.1.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/messages/30.1.0/messages-30.1.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/messages-ndjson/0.3.2/messages-ndjson-0.3.2.jar:/Users/neiromancer/.m2/repository/io/cucumber/pretty-formatter/2.4.1/pretty-formatter-2.4.1.jar:/Users/neiromancer/.m2/repository/io/cucumber/query/14.7.0/query-14.7.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/teamcity-formatter/0.2.0/teamcity-formatter-0.2.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/testng-xml-formatter/0.7.0/testng-xml-formatter-0.7.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/usage-formatter/0.1.0/usage-formatter-0.1.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/tag-expressions/8.1.0/tag-expressions-8.1.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-expressions/18.1.0/cucumber-expressions-18.1.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-json-formatter/0.3.2/cucumber-json-formatter-0.3.2.jar:/Users/neiromancer/.m2/repository/io/cucumber/datatable/7.34.3/datatable-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-plugin/7.34.3/cucumber-plugin-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/docstring/7.34.3/docstring-7.34.3.jar:/Users/neiromancer/.m2/repository/io/cucumber/html-formatter/22.3.0/html-formatter-22.3.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/junit-xml-formatter/0.11.0/junit-xml-formatter-0.11.0.jar:/Users/neiromancer/.m2/repository/io/cucumber/ci-environment/12.0.0/ci-environment-12.0.0.jar:/Users/neiromancer/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/neiromancer/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.34.3/cucumber-junit-platform-engine-7.34.3.jar:/Users/neiromancer/.m2/repository/org/junit/platform/junit-platform-engine/6.1.0/junit-platform-engine-6.1.0.jar:/Users/neiromancer/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/neiromancer/.m2/repository/org/junit/platform/junit-platform-commons/6.1.0/junit-platform-commons-6.1.0.jar:/Users/neiromancer/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/neiromancer/.m2/repository/org/junit/platform/junit-platform-suite/6.1.0/junit-platform-suite-6.1.0.jar:/Users/neiromancer/.m2/repository/org/junit/platform/junit-platform-suite-api/6.1.0/junit-platform-suite-api-6.1.0.jar:/Users/neiromancer/.m2/repository/org/junit/platform/junit-platform-suite-engine/6.1.0/junit-platform-suite-engine-6.1.0.jar:/Users/neiromancer/.m2/repository/org/junit/platform/junit-platform-launcher/6.1.0/junit-platform-launcher-6.1.0.jar:/Users/neiromancer/.m2/repository/org/assertj/assertj-core/3.27.7/assertj-core-3.27.7.jar:/Users/neiromancer/.m2/repository/net/bytebuddy/byte-buddy/1.18.3/byte-buddy-1.18.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/neiromancer"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/26.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/neiromancer/IdeaProjects/cucumber-bdd-homework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/neiromancer/IdeaProjects/cucumber-bdd-homework/target/surefire/surefirebooter-20260623155408759_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26.0.1"/>
+    <property name="user.name" value="neiromancer"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/neiromancer/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/p6/gcw7qk1n01b0kbd2mth2s_gr0000gn/T/"/>
+    <property name="java.version" value="26.0.1"/>
+    <property name="user.dir" value="/Users/neiromancer/IdeaProjects/cucumber-bdd-homework"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/neiromancer/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="26.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="Авторизация пользователя - Успешная авторизация - Examples - Example #1.1" classname="RunCucumberTest" time="0.063">
+    <system-out><![CDATA[
+@login @positive
+&amp#27;[1mScenario Outline:&amp#27;[22m Успешная авторизация                     &amp#27;[90m# classpath:features/login.feature:14&amp#27;[39m
+Начинаем сценарий
+Открыта страница авторизации
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mпользователь находится на странице авторизации&amp#27;[39m   &amp#27;[90m# io.cucumber.skeleton.LoginSteps.userIsOnLoginPage()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mпользователь вводит логин &amp#27;[1m"user"&amp#27;[22m и пароль &amp#27;[1m"12345"&amp#27;[22m&amp#27;[39m &amp#27;[90m# io.cucumber.skeleton.LoginSteps.userEntersLoginAndPassword(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mсистема показывает сообщение &amp#27;[1m"Добро пожаловать"&amp#27;[22m&amp#27;[39m   &amp#27;[90m# io.cucumber.skeleton.LoginSteps.systemShowsMessage(java.lang.String)&amp#27;[39m
+Сценарий завершен
+]]></system-out>
+    <system-err><![CDATA[июн. 23, 2026 3:54:09 PM org.junit.platform.launcher.core.DiscoveryIssueNotifier logIssues
+WARNING: TestEngine with ID 'junit-platform-suite' encountered a non-critical issue during test discovery:
+
+(1) [WARNING] [cucumber] The classpath resource selector 'features' should not be used to select features in a package. Use the package selector with 'features' instead (via @Suite io.cucumber.skeleton.RunCucumberTest).
+]]></system-err>
+  </testcase>
+  <testcase name="Авторизация пользователя - Успешная авторизация - Examples - Example #1.2" classname="RunCucumberTest" time="0.004">
+    <system-out><![CDATA[
+@login @positive
+&amp#27;[1mScenario Outline:&amp#27;[22m Успешная авторизация                         &amp#27;[90m# classpath:features/login.feature:15&amp#27;[39m
+Начинаем сценарий
+Открыта страница авторизации
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mпользователь находится на странице авторизации&amp#27;[39m       &amp#27;[90m# io.cucumber.skeleton.LoginSteps.userIsOnLoginPage()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mпользователь вводит логин &amp#27;[1m"admin"&amp#27;[22m и пароль &amp#27;[1m"admin123"&amp#27;[22m&amp#27;[39m &amp#27;[90m# io.cucumber.skeleton.LoginSteps.userEntersLoginAndPassword(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mсистема показывает сообщение &amp#27;[1m"Добро пожаловать"&amp#27;[22m&amp#27;[39m       &amp#27;[90m# io.cucumber.skeleton.LoginSteps.systemShowsMessage(java.lang.String)&amp#27;[39m
+Сценарий завершен
+]]></system-out>
+  </testcase>
+  <testcase name="Авторизация пользователя - Ошибка при неверном пароле" classname="RunCucumberTest" time="0.003">
+    <system-out><![CDATA[
+@login @negative
+&amp#27;[1mScenario:&amp#27;[22m Ошибка при неверном пароле                       &amp#27;[90m# classpath:features/login.feature:18&amp#27;[39m
+Начинаем сценарий
+Открыта страница авторизации
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mпользователь находится на странице авторизации&amp#27;[39m   &amp#27;[90m# io.cucumber.skeleton.LoginSteps.userIsOnLoginPage()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mпользователь вводит логин &amp#27;[1m"user"&amp#27;[22m и пароль &amp#27;[1m"wrong"&amp#27;[22m&amp#27;[39m &amp#27;[90m# io.cucumber.skeleton.LoginSteps.userEntersLoginAndPassword(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mсистема показывает сообщение &amp#27;[1m"Ошибка авторизации"&amp#27;[22m&amp#27;[39m &amp#27;[90m# io.cucumber.skeleton.LoginSteps.systemShowsMessage(java.lang.String)&amp#27;[39m
+Сценарий завершен
+]]></system-out>
+  </testcase>
+</testsuite>
